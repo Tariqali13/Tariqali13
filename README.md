@@ -16,6 +16,7 @@ I work across modern frontend and backend systems, with particular strength in R
 
 - [Portfolio](https://tariqali13.com) — my experience, selected work, and contact information.
 - [3D Geospatial & CAD Viewer](https://github.com/Tariqali13/3d-project-demo) — browser-based spatial-data visualization and engineering tooling.
+- [MediaVault](https://github.com/Tariqali13/MediaVault) — a full-stack digital-asset workspace with media workflows, workspace controls, and delivery automation.
 
 Most employer and client work remains private to protect confidential code, data, and credentials.
 
