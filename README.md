@@ -19,7 +19,7 @@ simulated buyers, 696 seats sold in ~20 s, **0 double-sold seats** (audited in P
 0 unexpected errors. CI re-runs the audit on every push.
 `TypeScript` `Fastify` `Redis + Lua` `PostgreSQL` `React` `k6` `Prometheus` `Grafana`
 
-### [VoiceBrief](https://github.com/Tariqali13/voicebrief) — meeting notes you can verify
+### [VoiceBrief](https://github.com/Tariqali13/voicebrief) — meeting notes you can verify · [live demo](https://voicebrief.onrender.com)
 Record a meeting and get decisions, action items and open questions, each linked to the
 exact transcript line it came from. Ask questions across all meetings and get cited
 answers. Grounding checks drop unsupported items, transcripts are fenced against prompt
