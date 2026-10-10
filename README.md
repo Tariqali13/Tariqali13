@@ -1,27 +1,51 @@
 # Hi, I'm Tariq Ali
 
-Senior Full-Stack Software Engineer focused on building reliable, scalable web products and thoughtful developer experiences.
+Senior Full-Stack Software Engineer, 8+ years building SaaS, ticketing, e-commerce and
+AI-enabled products for international teams. Most recently on a large event-ticketing
+platform: checkout and payment flows, GraphQL migration, observability and production
+rollouts across 20+ repositories.
 
-I work across modern frontend and backend systems, with particular strength in React, Next.js, TypeScript, Node.js, API design, and data-driven interfaces. I also enjoy solving visual and performance-intensive problems, including 3D, CAD, and geospatial applications.
+Based in Lahore, Pakistan · open to remote roles and relocation.
 
-## What I work with
+## Featured projects
 
-- **Frontend:** React, Next.js, TypeScript, JavaScript
-- **Backend:** Node.js, REST APIs, server-side application architecture
-- **Data:** MongoDB, PostgreSQL, SQL
-- **Engineering:** performance, accessibility, responsive UI, testing, CI/CD
-- **Specialized visualization:** Three.js, WebGL, spatial and CAD data workflows
+My employer and client work lives in private repositories, so these projects rebuild the
+kinds of problems I work on, in the open, with tests, CI and the trade-offs written down.
 
-## Featured work
+### [Onsale](https://github.com/Tariqali13/onsale) — ticket onsale engine under a thundering herd
+A virtual waiting room, all-or-nothing seat holds and idempotent checkout, with a database
+constraint as the final guarantee against double-selling. Load-tested with k6: 2,000
+simulated buyers, 696 seats sold in ~20 s, **0 double-sold seats** (audited in Postgres),
+0 unexpected errors. CI re-runs the audit on every push.
+`TypeScript` `Fastify` `Redis + Lua` `PostgreSQL` `React` `k6` `Prometheus` `Grafana`
 
-- [Portfolio](https://tariqali13.com) — my experience, selected work, and contact information.
-- [3D Geospatial & CAD Viewer](https://github.com/Tariqali13/3d-project-demo) — browser-based spatial-data visualization and engineering tooling.
-- [MediaVault](https://github.com/Tariqali13/MediaVault) — a full-stack digital-asset workspace with media workflows, workspace controls, and delivery automation.
-- [ShelfSync](https://github.com/Tariqali13/ShelfSync) — an offline-aware inventory and operations workspace built with React, TypeScript, and Node.js.
+### [VoiceBrief](https://github.com/Tariqali13/voicebrief) — meeting notes you can verify
+Record a meeting and get decisions, action items and open questions, each linked to the
+exact transcript line it came from. Ask questions across all meetings and get cited
+answers. Grounding checks drop unsupported items, transcripts are fenced against prompt
+injection, and an evaluation harness scores the pipeline against hand-labelled meetings.
+`Next.js 16` `TypeScript` `Whisper` `LLM structured output` `Embeddings / RAG` `Postgres`
 
-Most employer and client work remains private to protect confidential code, data, and credentials.
+### [MediaVault](https://github.com/Tariqali13/MediaVault) — multi-tenant media library
+Team asset library with tenant isolation enforced by Postgres row-level security, direct-to-storage
+signed uploads with atomic quota reservation, a background worker that verifies file types
+and renders thumbnails, and one role/permission matrix shared by API and UI.
+`TypeScript` `Node.js` `PostgreSQL RLS` `S3 / MinIO` `Background jobs` `React`
+
+### Also
+- [3D Geospatial & CAD Viewer](https://github.com/Tariqali13/3d-project-demo) — browser rendering of DXF/LandXML-style geometry with Three.js, measurements and elevation profiles.
+- [ShelfSync](https://github.com/Tariqali13/ShelfSync) — offline-aware inventory and operations workspace.
+
+## Toolkit
+
+- **Frontend:** React, Next.js, TypeScript, React Query, Zustand, Redux, accessibility (WCAG)
+- **Backend:** Node.js, Fastify, NestJS, Express, GraphQL / Apollo, REST, Stripe
+- **Data & cloud:** PostgreSQL, MongoDB, Redis, AWS (S3, Lambda, Rekognition, CloudFront), Docker
+- **Quality & delivery:** Vitest, Jest, React Testing Library, Nightwatch, k6, GitHub Actions, Prometheus, Grafana
+- **AI:** LLM APIs, structured output, retrieval-augmented generation, evaluation harnesses
 
 ## Connect
 
-- Website: [tariqali13.com](https://tariqali13.com)
+- Portfolio: [tariqali.dev](https://tariqali.dev)
 - LinkedIn: [Tariq Ali](https://www.linkedin.com/in/tariq-ali-116678156/)
+- Email: tariqali99.ta@gmail.com
