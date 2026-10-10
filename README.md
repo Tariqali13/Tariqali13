@@ -12,7 +12,7 @@ Based in Lahore, Pakistan · open to remote roles and relocation.
 My employer and client work lives in private repositories, so these projects rebuild the
 kinds of problems I work on, in the open, with tests, CI and the trade-offs written down.
 
-### [Onsale](https://github.com/Tariqali13/onsale) — ticket onsale engine under a thundering herd
+### [Onsale](https://github.com/Tariqali13/onsale) — ticket onsale engine under a thundering herd · [live demo](https://onsalerender.netlify.app)
 A virtual waiting room, all-or-nothing seat holds and idempotent checkout, with a database
 constraint as the final guarantee against double-selling. Load-tested with k6: 2,000
 simulated buyers, 696 seats sold in ~20 s, **0 double-sold seats** (audited in Postgres),
@@ -26,7 +26,7 @@ answers. Grounding checks drop unsupported items, transcripts are fenced against
 injection, and an evaluation harness scores the pipeline against hand-labelled meetings.
 `Next.js 16` `TypeScript` `Whisper` `LLM structured output` `Embeddings / RAG` `Postgres`
 
-### [MediaVault](https://github.com/Tariqali13/MediaVault) — multi-tenant media library
+### [MediaVault](https://github.com/Tariqali13/MediaVault) — multi-tenant media library · [live demo](https://media-vault-tariqali.netlify.app)
 Team asset library with tenant isolation enforced by Postgres row-level security, direct-to-storage
 signed uploads with atomic quota reservation, a background worker that verifies file types
 and renders thumbnails, and one role/permission matrix shared by API and UI.
