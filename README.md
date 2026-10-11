@@ -32,7 +32,7 @@ signed uploads with atomic quota reservation, a background worker that verifies 
 and renders thumbnails, and one role/permission matrix shared by API and UI.
 `TypeScript` `Node.js` `PostgreSQL RLS` `S3 / MinIO` `Background jobs` `React`
 
-### [Groundwork](https://github.com/Tariqali13/3d-project-demo) — survey and CAD data in the browser · [live demo](https://groundwork-3d.onrender.com)
+### [Groundwork](https://github.com/Tariqali13/3d-groundwork) — survey and CAD data in the browser · [live demo](https://groundwork-3d.onrender.com)
 Open LandXML terrain and DXF site plans, then measure distances, areas, long sections,
 stockpile volumes and cut/fill against a design, all client-side. Float64 world coordinates
 with a local GPU origin keep millimetre precision; plane volumes are exact by triangle
