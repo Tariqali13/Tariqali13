@@ -40,8 +40,12 @@ clipping; a grid TIN index answers a million elevation lookups in 0.2 s; analysi
 a Web Worker. 40 tests check results against answers known in advance.
 `TypeScript` `three.js` `Web Workers` `React` `LandXML` `DXF` `Vitest`
 
-### Also
-- [ShelfSync](https://github.com/Tariqali13/ShelfSync) — offline-aware inventory and operations workspace.
+### [ShelfSync](https://github.com/Tariqali13/ShelfSync) — offline-first point of sale · [live demo](https://shelf-sync.netlify.app)
+Tills keep selling with no connection and sync safely when it returns, even when two offline
+tills both sold the last item. Sales go to an IndexedDB outbox first and sync as deltas; sync is
+idempotent and gap-free (per-store advisory lock); oversells that already happened are kept and
+flagged for a recount. A chaos test with lost, duplicated and dropped requests converges on 200 seeds.
+`React` `TypeScript` `IndexedDB` `Express` `PostgreSQL` `Netlify Functions` `Vitest`
 
 ## Toolkit
 
