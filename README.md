@@ -32,8 +32,15 @@ signed uploads with atomic quota reservation, a background worker that verifies 
 and renders thumbnails, and one role/permission matrix shared by API and UI.
 `TypeScript` `Node.js` `PostgreSQL RLS` `S3 / MinIO` `Background jobs` `React`
 
+### [Groundwork](https://github.com/Tariqali13/3d-project-demo) — survey and CAD data in the browser · [live demo](https://groundwork-3d.onrender.com)
+Open LandXML terrain and DXF site plans, then measure distances, areas, long sections,
+stockpile volumes and cut/fill against a design, all client-side. Float64 world coordinates
+with a local GPU origin keep millimetre precision; plane volumes are exact by triangle
+clipping; a grid TIN index answers a million elevation lookups in 0.2 s; analysis runs in
+a Web Worker. 40 tests check results against answers known in advance.
+`TypeScript` `three.js` `Web Workers` `React` `LandXML` `DXF` `Vitest`
+
 ### Also
-- [3D Geospatial & CAD Viewer](https://github.com/Tariqali13/3d-project-demo) — browser rendering of DXF/LandXML-style geometry with Three.js, measurements and elevation profiles.
 - [ShelfSync](https://github.com/Tariqali13/ShelfSync) — offline-aware inventory and operations workspace.
 
 ## Toolkit
