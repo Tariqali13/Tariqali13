@@ -60,3 +60,4 @@ flagged for a recount. A chaos test with lost, duplicated and dropped requests c
 - Portfolio: [tariqali.dev](https://tariqali.dev)
 - LinkedIn: [Tariq Ali](https://www.linkedin.com/in/tariq-ali-116678156/)
 - Email: tariqali99.ta@gmail.com
+- Email2: Tariqali.edu.dev@gmail.com
